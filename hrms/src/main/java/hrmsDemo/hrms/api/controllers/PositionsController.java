@@ -25,9 +25,4 @@ public PositionsController(PositionService positionService) {
 public List<Position> getAll(){
 	return this.positionService.getAll();
 }
-	
-
-
-
-
 }
